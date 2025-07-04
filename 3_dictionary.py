@@ -1,4 +1,5 @@
 # key value pair, mutable, unordered, indexed
+# as python version 3.7 dictionaries are ordered, but in earlier versions they were unordered
 mydict={"name":"max", "age":28, "city":"boston"}
 print(mydict)
 mydict2=dict(name="Mary",age=27,city="New York")
